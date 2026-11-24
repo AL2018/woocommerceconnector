@@ -33,7 +33,7 @@ A short digest; the documents above are the source, and this list is a cache.
 ## Structure
 - `woocommerceconnector/sync_products.py`, `sync_customers.py`, `sync_orders.py`: the sync jobs.
 - `woocommerceconnector/woocommerce_requests.py`, `webhooks.py`, `api.py`: the WooCommerce API side.
-- `woocommerceconnector/woocommerceconnector/doctype/`: WooCommerce Config and Item Product Category.
+- `woocommerceconnector/woocommerceconnector/doctype/`: seven DocTypes: Item Product Category, WooCommerce Config, woocommerce Log, WooCommerce SO Status, woocommerce Tax Account, WooCommerce Tax Rule, WooWarehouses.
 - `woocommerceconnector/patches/V1_0/`: upstream patches. `test_sites/`: upstream test-site files.
 
 ## Conventions
